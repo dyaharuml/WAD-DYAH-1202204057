@@ -1,5 +1,5 @@
-        <?php
-
+<?php
+session_start();
         include_once("connector.php");
         ?>
 
@@ -34,7 +34,7 @@
                         <div class="col mb-3 pt-10 mx-auto ">
                             <div class="row justify-content-center">
                                 <div class="container">
-                                    <br><br><br>
+                                    <br>
                                     <h2>Login</h2><br>
                                 </div>
 

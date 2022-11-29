@@ -16,7 +16,7 @@
 
         <body>
             <section id="home" class="home"> </section>
-            <?php if (isset($['message'])) :  ?>
+            <?php if (isset($_SESSION['message'])) :  ?>
                 <div class="alert alert-danger alert-dismissible fade show fade in" role="alert">
                     <?= $_SESSION['message']; ?>
                     <button type="button" class="close" data-dismiss="alert" aria-label="close">
