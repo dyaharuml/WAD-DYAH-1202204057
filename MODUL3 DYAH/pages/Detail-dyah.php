@@ -1,7 +1,7 @@
 <?php
 require '../config/koneksi.php';
 
-$id = $_GET['id'];
+$id = $_GET['id']+1;
 
 $sql = "SELECT * FROM showroomdyah WHERE id_mobil = $id";
 
